@@ -1,6 +1,10 @@
 [package]
-name = "ct-v2"
+name = "rust-http"
 version = "0.1.0"
-authors = ["svenjosef"]
+authors = ["Sven Herzing"]
 
 [dependencies]
+hyper = "0.11.13"
+futures = "0.1.17"
+env_logger = "0.5.3"
+log = "0.4.1"
